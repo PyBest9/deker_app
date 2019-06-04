@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=-1">
+	<link rel="stylesheet" type="text/css" href="css/sabha.css">
+	<link rel="stylesheet"  href="css/jquery.mobile-1.4.5.css">
+	
+	
+</head>
+<body>
+<div data-role="page" id="mainpg">
+
+
+
+
+
+
+<div data-role="page" id="count">
+	<input type="text" id="inc" value="0">
+</div>
+
+
+	<div data-role="page" id="tasbi7">
+		<div id="butdiv">
+	<button data-role="none" id="button" onclick="add()">اضغط</button>
+	<button data-role="none" id="reset" onclick="reset()">جديد</button>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+
+	<script type="text/javascript" >
+
+	 var i = 0;
+    function add() {
+        document.getElementById('inc').value = ++i;
+    }
+
+    function reset(){
+    	location.reload();
+    }
+
+    
+	</script>
+
+</body>
+</html>
