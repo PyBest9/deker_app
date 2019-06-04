@@ -39,12 +39,12 @@
         <icon density="xxhdpi" src="icon.png" />
         <icon density="xxxhdpi" src="icon.png" />
        
-        <splash density="port-ldpi" src="img/splash-port-ldpi.png" />
-        <splash density="port-mdpi" src="img/splash-port-mdpi.png" />
-        <splash density="port-hdpi" src="img/splash-port-hdpi.png" />
-        <splash density="port-xhdpi" src="img/splash-port-xhdpi.png" />
-        <splash density="port-xxhdpi" src="img/splash-port-xxhdpi.png" />
-        <splash density="port-xxxhdpi" src="img/splash-port-xxxhdpi.png" />
+        <splash density="port-ldpi" src="android/splash-port-ldpi.png" />
+        <splash density="port-mdpi" src="android/splash-port-mdpi.png" />
+        <splash density="port-hdpi" src="android/splash-port-hdpi.png" />
+        <splash density="port-xhdpi" src="android/splash-port-xhdpi.png" />
+        <splash density="port-xxhdpi" src="android/splash-port-xxhdpi.png" />
+        <splash density="port-xxxhdpi" src="android/splash-port-xxxhdpi.png" />
         <splash src="img/splash.png"/>
     </platform>
     <platform name="ios">
